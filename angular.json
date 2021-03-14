@@ -26,8 +26,6 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "aot": true,
-            "baseHref": "/dist/href-deploy/",
-            "deployUrl": "/",
             "assets": [
               "src/favicon.ico",
               "src/assets"
@@ -39,6 +37,8 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/dist/href-deploy/",
+              "deployUrl": "/dist/href-deploy/",
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
