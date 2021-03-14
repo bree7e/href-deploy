@@ -37,8 +37,8 @@
           },
           "configurations": {
             "production": {
-              "baseHref": "/dist/href-deploy/",
-              "deployUrl": "/dist/href-deploy/",
+              "baseHref": "__BASE_HREF__",
+              "deployUrl": "__DEPLOY_URL__",
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
