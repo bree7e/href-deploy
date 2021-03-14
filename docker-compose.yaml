@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  frontend:
+    build: .
+    environment:
+      - API_URL=https://vasya.com
+      - GA=UA-12345678-9
+    ports:
+      - "8080:80"
